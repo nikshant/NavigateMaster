@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nishan Thapaliya — Senior BI Developer & Data Engineering Leader</title>
+<title>Nishan Thapaliya — Lead Data Engineer | SQL, Azure Databricks & Power BI</title>
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 <link rel="apple-touch-icon" href="assets/favicon.svg">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=IBM+Plex+Mono:wght@300;400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
@@ -386,7 +386,7 @@ footer{position:relative;z-index:1;background:var(--surf);
       <h1 class="hero-name">Nishan <span>Thapaliya</span></h1>
       <div class="hero-roles"><span id="typewriter"></span><span class="cursor-blink">|</span></div>
       <p class="hero-summary">
-        Senior BI Developer &amp; Technical Project Leader with <strong>9+ years</strong> delivering enterprise-scale data solutions across <strong>healthcare, federal, finance</strong> &amp; transportation. Working with Power BI since its <strong>2015 release</strong>. Passionate about <strong>AI-driven analytics</strong>, Power BI, Azure &amp; turning raw data into strategic decisions that matter.
+        Lead Data Engineer with <strong>9+ years</strong> building enterprise data pipelines, warehouses &amp; Power BI reporting across <strong>healthcare, federal, finance</strong> &amp; transportation. Leading a <strong>9-person team</strong> at Vaya Partners, a North Carolina Medicaid LME-MCO. Working with Power BI since its <strong>2015 release</strong>. Passionate about <strong>AI-driven analytics</strong>, Power BI, Azure &amp; turning raw data into strategic decisions that matter.
       </p>
       <div class="hero-tour">
         <span class="tour-label">Take a tour</span>
@@ -583,6 +583,16 @@ footer{position:relative;z-index:1;background:var(--surf);
         <div class="edu-meta">Business / Finance &nbsp;·&nbsp; 2010 – 2012</div>
       </div>
     </div>
+    <div class="edu-card" style="margin-top:16px;">
+      <div class="edu-ico">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="9" r="6"/><path d="M8.5 14.5 7 22l5-3 5 3-1.5-7.5"/></svg>
+      </div>
+      <div>
+        <div class="edu-deg">Certificates</div>
+        <div class="edu-sch">Anthropic: AI Fluency &mdash; Framework &amp; Foundations &nbsp;·&nbsp; Claude 101</div>
+        <div class="edu-meta">2026 &nbsp;·&nbsp; Public Trust clearance, U.S. Dept. of Veterans Affairs (2023&ndash;2025, previously held)</div>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -602,7 +612,7 @@ footer{position:relative;z-index:1;background:var(--surf);
 <footer>
   <div class="footer-l">
     <div class="fn">Nishan Thapaliya</div>
-    <div class="fs">Senior BI Developer &amp; Technical Project Leader · Plano, TX</div>
+    <div class="fs">Lead Data Engineer · Plano, TX</div>
   </div>
   <div class="footer-r">
     &copy; 2026 Navigate Master<br>Thapaliya &amp; Thapaliya LLC
@@ -646,7 +656,7 @@ footer{position:relative;z-index:1;background:var(--surf);
 !function(){
   const el=document.getElementById('typewriter');
   const roles=[
-    'Data Engineer',
+    'Lead Data Engineer',
     'Business Intelligence',
     'Developer',
     'Technical Lead',
@@ -694,74 +704,75 @@ footer{position:relative;z-index:1;background:var(--surf);
 /* ── EXPERIENCE LOLLIPOP TIMELINE ── */
 !function(){
   const EXP=[
-    {id:'phm',name:'Partners Health Mgmt',period:'Mar 2025 – Present',
-     startDate:new Date(2025,2,1),endDate:new Date(2026,4,29),
-     fullName:'Partners Health Management',
-     title:'Data Pipeline & SQL Operations Supervisor / Sr. BI Developer',
+    {id:'phm',name:'Vaya Partners',period:'Mar 2025 – Present',
+     startDate:new Date(2025,2,1),endDate:new Date(2026,10,10),
+     fullName:'Vaya Partners (formerly Partners Health Management)',
+     title:'Lead Data Engineer / Data Pipeline & SQL Operations Supervisor',
      domain:'Healthcare',domainKey:'hc',color:'#22C77E',
-     accs:['Led 5-engineer team owning SQL & ETL pipelines for 34+ NC Medicare providers',
-           'Deployed 50+ Power BI dashboards for Medical & Behavioral Health claims (~100 users)',
-           'Drove daily SLA adherence; owned on-call rotation & incident response',
-           'Built Azure Data Factory pipelines from REST APIs, Azure SQL & flat files into ADLS',
-           'Developed Databricks Serverless SQL pipelines for curated downstream analytics',
-           'Implemented RLS & HIPAA-compliant governance controls for PII/PHI patient data',
-           'Leveraged Power BI Copilot & Visual Calculations for automated report delivery'],
-     tools:['Power BI','Microsoft Fabric','Azure Data Factory','Databricks','Snowflake','Power Automate']},
+     accs:['Lead a 9-person team (8 SQL developers + 1 BA): set direction, review code via Git PRs, manage deployments',
+           'Led data engineering for the Partners–Vaya merger (Oct 2026): migrated 150+ SSIS packages to the consolidated environment',
+           'Cut high-volume merger loads from 30+ hrs to under 5 hrs with a dedicated SQL node and monthly-batch extracts',
+           'Designed the consolidated data-movement setup with reusable SSIS package templates and documentation',
+           'Built Azure Databricks Lakehouse pipelines (Spark SQL, PySpark) on Bronze/Silver/Gold layers, orchestrated in ADF',
+           'Engineer NC Medicaid ETL for all claim types (837I/P/D, NCPDP) and eligibility for ~200K Tailored Plan members',
+           'ETL from TruCare, GuidingCare & Pega; daily NCTracks prior-auth & claims files; 100+ daily partner file exchanges',
+           'Power BI dashboards on claims, eligibility & care-management data using DAX, Power Query & Python (pandas)'],
+     tools:['SQL Server','SSIS','Azure Databricks','Azure Data Factory','Snowflake','Power BI','Microsoft Fabric','Python']},
     {id:'bah',name:'Booz Allen Hamilton',period:'May 2023 – Mar 2025',
      startDate:new Date(2023,4,1),endDate:new Date(2025,2,1),
      fullName:'Booz Allen Hamilton, Inc.',
-     title:'Lead BI Developer / Associate · Client: Dept. of Veterans Affairs',
+     title:'Lead BI Developer · Client: Dept. of Veterans Affairs (PTEMS CXI)',
      domain:'Federal / Government',domainKey:'fed',color:'#4B8EF0',
-     accs:['Led 3-person BI team supporting ~150 VA end users across federal stakeholder groups',
-           'Designed 50+ dashboards tracking veteran services utilization, efficiency & outcomes',
-           'Resolved critical dashboard performance lags via DAX tuning & incremental refresh',
-           'Built end-to-end Azure Synapse pipelines using Medallion architecture (Parquet/Delta)',
-           'Leveraged Microsoft Fabric to centralize VA data in Power BI',
-           'Created Section 508-compliant dashboard templates meeting federal accessibility standards',
-           'Administered Power BI Premium tenant and on-premises data gateways'],
-     tools:['Power BI Premium','Microsoft Fabric','Azure Synapse','Databricks','ADF','Tableau']},
+     accs:['Led a 3-person BI team as player-coach, guiding delivery for ~150 VA users',
+           'Delivered 50+ automated Power BI dashboards & KPI scorecards in a role-secured Power BI app',
+           'Rescued failing dashboards (VertiPaq profiling, server-side SQL, DAX rewrites): ~90% faster, 4–5 min to under 10 sec',
+           'Built Databricks, Synapse & Data Factory pipelines on Medallion layers surfaced through Fabric semantic models',
+           'Created a Section 508-compliant reporting template adopted across the team; documented BI standards in Confluence',
+           'Managed Git version control, code reviews & dev/test/prod deployments; administered Power BI tenant & gateways'],
+     tools:['Microsoft Fabric','Power BI','Azure Synapse','Azure Databricks','Azure Data Factory','Tableau']},
     {id:'fid',name:'Fidelity Investments',period:'Oct 2022 – May 2023',
      startDate:new Date(2022,9,1),endDate:new Date(2023,4,1),
-     fullName:'Fidelity Investments',
+     fullName:'eTech Global IT Solutions · Client: Fidelity Investments',
      title:'Sr. Power BI Developer',
      domain:'Finance',domainKey:'fin',color:'#F59E0B',
-     accs:['Designed 30+ Power BI reports on GB-scale Snowflake datasets for ~60 end users',
-           'Parameterized reports for dynamic filtering, reducing ad-hoc data requests',
-           'Managed Power BI Service admin via REST APIs and PowerShell cmdlets',
-           'Implemented RLS to protect sensitive PII/PHI financial customer data',
-           'Automated report refreshes, KPI alerts & SharePoint workflows via Power Automate'],
-     tools:['Power BI Premium','Snowflake','DAX Studio','Datadog','Collibra','Power Automate']},
+     accs:['Delivered 30+ Power BI reports & financial KPI dashboards for ~60 users on GB-scale Snowflake data',
+           'Built parameterized self-service reports with data caps that protected server performance',
+           'Managed Power BI Service admin via REST APIs & PowerShell; Git version control and controlled deployments',
+           'Implemented RLS for sensitive PII; built governance dashboards to monitor content quality & usage',
+           'Automated data-driven alerts, scheduled refreshes & SharePoint workflows with Power Automate'],
+     tools:['Power BI','Snowflake','DAX Studio','Datadog','Collibra','Power Automate']},
     {id:'yrc',name:'YRC Worldwide (Yellow)',period:'Mar 2019 – Oct 2022',
      startDate:new Date(2019,2,1),endDate:new Date(2022,9,1),
      fullName:'YRC Worldwide (Yellow)',
      title:'BI / Database Developer II',
      domain:'Transportation',domainKey:'tr',color:'#F97316',
-     accs:['Built 100+ Power BI dashboards serving ~300 users — dispatch, operations & executive',
-           'Surfaced near real-time freight events via streaming REST APIs for proactive delay detection',
-           'Designed full SQL Server object suite for high-volume freight, trip & telematics data',
-           'Architected SSIS ETL pipelines with SCD Type 1/2/3 from TMS, GPS & SFTP feeds',
-           'Drove SQL performance tuning via execution plan analysis, materially reducing runtimes',
-           'Migrated legacy Business Objects reports to Power BI, eliminating manual spreadsheets'],
-     tools:['SQL Server 2019','Power BI','SSRS','SSIS','DAX Studio','Azure Data Studio']},
+     accs:['Led the data visualization team: assigned tasks, set BI standards & reviewed SQL and report performance',
+           'Led the move from Business Objects to Power BI (fully retired): 100+ dashboards for ~300 users, plus SSRS reports',
+           'Built real-time fleet dashboards on streaming datasets for live visibility into delays and fuel costs',
+           'Designed SQL Server objects (procs, views, indexes, UDFs) for high-volume freight, trip & telematics data',
+           'Architected SSIS ETL from TMS, GPS/telematics, SFTP & REST APIs with SCD Type 1/2/3',
+           'Fixed a temp-table sorting bottleneck with targeted indexing: millions of records ingested in under 20 minutes'],
+     tools:['SQL Server 2019','SSIS','Power BI','SSRS','DAX Studio','Azure Data Studio']},
     {id:'lum',name:'Lumeris',period:'Nov 2018 – Feb 2019',
      startDate:new Date(2018,10,1),endDate:new Date(2019,1,1),
-     fullName:'Lumeris',
+     fullName:'eTech Global IT Solutions · Client: Lumeris',
      title:'Sr. Data Engineer',
      domain:'Healthcare',domainKey:'hc',color:'#22C77E',
      accs:['Built SQL Server pipelines migrating patient services data from multiple healthcare providers',
-           'Developed analytical metrics evaluating care delivery patterns & improvement opportunities',
+           'Integrated ANSI X12 EDI transaction sets (837, 834, 276/277) for provider claims & eligibility data',
+           'Developed analytical metrics on care delivery patterns & improvement opportunities',
            'Delivered findings to partner organizations to support clinical and operational decisions'],
      tools:['SQL Server 2014','SSIS','T-SQL','Power BI','Tableau']},
     {id:'gs',name:'GreenSky',period:'Oct 2017 – Oct 2018',
      startDate:new Date(2017,9,1),endDate:new Date(2018,9,1),
-     fullName:'GreenSky',
+     fullName:'eTech Global IT Solutions · Client: GreenSky',
      title:'SQL Developer',
      domain:'Finance / Fintech',domainKey:'fin',color:'#F59E0B',
-     accs:['Developed T-SQL stored procedures & Power BI dashboards for operational/financial reporting',
+     accs:['Developed T-SQL stored procedures & Power BI dashboards (Service and Report Server) for operational/financial reporting',
            'Leveraged SSAS tabular model cubes as live data sources',
            'Reviewed peer queries for performance and standards compliance',
            'Collaborated with DBAs to identify and remediate data issues'],
-     tools:['SQL Server','T-SQL','Power BI Desktop','SSAS Tabular','Visual Studio 2016']},
+     tools:['SQL Server','T-SQL','Power BI','SSAS Tabular','Visual Studio']},
   ];
 
   /* ── Timeline Layout ── */
@@ -771,10 +782,10 @@ footer{position:relative;z-index:1;background:var(--surf);
   const STEM=115;      // horizontal stem length
   const R_SCALE=6.4;   // circle radius scale
 
-  // Date range: Oct 2017 → May 2026
-  const T0=new Date(2017,9,1), T1=new Date(2026,4,29);
+  // Date range: Oct 2017 → Nov 2026
+  const T0=new Date(2017,9,1), T1=new Date(2026,10,10);
   const totalMs=T1-T0;
-  const MONTHS_TOTAL=103;
+  const MONTHS_TOTAL=109;
   const SVG_H=MONTHS_TOTAL*6.4+MT+MB; // ~739
 
   const yPos=d=>MT+(1-((d-T0)/totalMs))*(SVG_H-MT-MB);
@@ -968,7 +979,7 @@ footer{position:relative;z-index:1;background:var(--surf);
 function initSankey(){
   const CO={phm:0,bah:1,fid:2,yrc:3,lum:4,gs:5};
   const coList=[
-    {name:'Partners Health Mgmt',color:'#22C77E',grp:'co',industry:'Healthcare',        period:'Mar 2025 – Present'},
+    {name:'Vaya Partners',        color:'#22C77E',grp:'co',industry:'Healthcare',        period:'Mar 2025 – Present'},
     {name:'Booz Allen Hamilton', color:'#4B8EF0',grp:'co',industry:'Federal / Gov\'t',  period:'May 2023 – Mar 2025'},
     {name:'Fidelity Investments',color:'#F59E0B',grp:'co',industry:'Finance',           period:'Oct 2022 – May 2023'},
     {name:'YRC Worldwide',       color:'#F97316',grp:'co',industry:'Transportation',    period:'Mar 2019 – Oct 2022'},
@@ -1006,9 +1017,11 @@ function initSankey(){
     ['Visual Studio',         PT,['phm','yrc','lum','gs']],
     ['Postman',               PT,['bah','yrc']],
     ['REST APIs',             PT,['phm','bah','fid','yrc']],
+    ['Git / GitHub',          PT,['phm','bah','fid']],
+    ['Jira / Confluence',     PT,['phm','bah']],
     ['Datadog',               PT,['fid']],
     ['Collibra',              PT,['fid','yrc']],
-    ['Python',                PT,['bah','yrc']],
+    ['Python',                PT,['phm','bah']],
     /* ── Analytics & AI ── */
     ['AI / Copilot',          AI,['phm','bah']],
     ['Predictive Analysis',   AI,['bah','yrc']],
@@ -1142,7 +1155,7 @@ document.addEventListener('DOMContentLoaded',initSankey);
 !function(){
   const RINGS=[
     {r:160, period:20, cls:'ob-r1', lc:'1',
-     badges:['Power BI','T-SQL · SQL Server','Team Lead','DAX Studio']},
+     badges:['Power BI','T-SQL · SQL Server','Data Lead','DAX Studio']},
     {r:230, period:28, cls:'ob-r2', lc:'2',
      badges:['Microsoft Fabric','Azure Data Factory','SSIS / ETL','Power Automate','Data Governance']},
     {r:292, period:38, cls:'ob-r3', lc:'3',
